@@ -1,0 +1,16 @@
+{
+    "routes": [
+        {
+            "src": "/api/fetch_topic",
+            "dest": "/api/fetch_topic.py"
+        },
+        {
+            "src": "/.tmp/(.*)",
+            "dest": "/.tmp/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/dashboard/$1"
+        }
+    ]
+}
